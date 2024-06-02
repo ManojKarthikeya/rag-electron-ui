@@ -31,7 +31,7 @@ function Homepage() {
         <Button colorScheme="teal" variant="outline" onClick={() => {navigate('/vector')}}>
           Use Vector Search
         </Button>
-        <Button colorScheme="teal" variant="outline">
+        <Button colorScheme="teal" variant="outline" onClick={() => {navigate('/rag')}}>
           Use RAG
         </Button>
       </Stack>
